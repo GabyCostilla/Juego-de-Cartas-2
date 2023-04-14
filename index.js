@@ -20,12 +20,12 @@ app.get('/', (req, res) => {
   res.render('panel');
 });
 
-app.get('/inicio', (req, res) => {
+/*app.get('/inicio', (req, res) => {
   const { name, edad, apellido } = req.body;
   console.log(`Nombre: ${name}, Edad: ${edad}, Apellido: ${apellido}`);
   let arr = {name:"patrisio", edad:"12",apellido:"gallo filon"}
   res.render('panel', arr);
-});
+});*/
 
 app.listen(port, () => {
   console.log(`Servidor escuchando en el puerto ${port}`);

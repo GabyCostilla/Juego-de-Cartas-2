@@ -1,9 +1,22 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 25px;
+}
 .container{
-  background-color: red;
-  display: flex;
+  display: grid; 
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
-#sem{
-  width: 10%;
-  height: 10%;
+.elem{
+  background-color: red;
+  width: 100px;
+  height: 120px;
+  justify-items: center;
+}
+
+.names{
+  display: flex;
+  justify-content: space-between;
 }

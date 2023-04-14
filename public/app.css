@@ -1,0 +1,9 @@
+.container{
+  background-color: red;
+  display: flex;
+}
+
+#sem{
+  width: 10%;
+  height: 10%;
+}

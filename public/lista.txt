@@ -1,0 +1,7 @@
+1. crear repositorio: listo
+
+2.crear la API
+
+3.crear el servidor:
+
+4. front
